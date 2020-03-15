@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     private float moveSpeed;
     private int waypointIndex;
 
+    List<Enemy> enemies;
+
     // Start is called before the first frame update
     void Start()
     {
